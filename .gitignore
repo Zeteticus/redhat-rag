@@ -1,0 +1,50 @@
+# Environment and secrets
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Data directories
+data/
+chromadb/
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+
+# Documents (add specific PDFs to track in git if needed)
+documents/*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Container/Podman
+.containerignore
+
+# Backups
+*.bak
+*.backup
+*.old
